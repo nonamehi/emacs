@@ -98,9 +98,9 @@
 
 ;; load exec-path-from-shell
 ;; about this please refer https://github.com/purcell/exec-path-from-shell
-;;(require 'exec-path-from-shell)
-;;(when (memq window-system '(mac ns))
-;;  (exec-path-from-shell-initialize))
+(require 'exec-path-from-shell)
+(when (memq window-system '(mac ns))
+  (exec-path-from-shell-initialize))
 
 ;; load auto-complete
 (load-file (concat common-config-dir "/auto-complete/.entry.el"))
