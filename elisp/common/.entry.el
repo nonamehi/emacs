@@ -145,4 +145,4 @@
 ;;  (exec-path-from-shell-initialize))
 
 ;; load auto-complete
-;;load-file (concat common-config-dir "/auto-complete/.entry.el"))
+(load-file (concat common-config-dir "/auto-complete/.entry.el"))

@@ -6,7 +6,6 @@
 
 (add-to-list 'load-path auto-complete-config-dir)
 (require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories (concat auto-complete-config-dir "/ac-dict"))
 (ac-config-default)
 ;; define key M-TAB to manually active completion
 (define-key ac-mode-map (kbd "M-TAB") 'auto-complete)
@@ -53,7 +52,7 @@
 ;;  （3）Extension Dictionary：扩展名字典，从名称上我们可以看出它是针对文件扩展名来生效的。例如命名为cpp的字典文件只在*.cpp的缓冲区中生效。扩展名字典同样是从ac-dictionary-directories指定的目录列表中查找的。其也存在缓存。
 ;;
 ;; set Major Mode Dictionary
-;;(add-to-list 'ac-dictionary-directories (concat auto-complete-config-dir "/ac-dict"))
+(add-to-list 'ac-dictionary-directories (concat auto-complete-config-dir "/ac-dict"))
 ;; set ac-user-dictionary
 ;; (add-to-list 'ac-user-dictionary "lienhua34@163.com")
 ;;
