@@ -10,38 +10,8 @@
 (add-to-list 'load-path (concat common-config-dir "/color-theme"))
 (require 'color-theme)
 (color-theme-initialize)
-;;(setq color-theme-is-global t)
-;;(color-theme-xp)
-
-;;;;;;;;;;;;;;;;;;;;;;;
-;; custom set variable
-;;;;;;;;;;;;;;;;;;;;;;;
-(custom-set-variables
-  ;; custom-set-variables was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
- '(cua-mode t nil (cua-base))
- '(display-time-mode t)
- '(show-paren-mode t)
- '(text-mode-hook (quote (turn-on-auto-fill text-mode-hook-identify)))
- '(blick-cursor-mode nil)
- '(column-number-mode t)
- '(delete-key-deletes-forward t)
- '(gud-gdb-command-name "gdb --annotate=1")
- '(large-file-warning-threshold nil)
- '(make-backup-files nil)
- '(menu-bar-mode 0)
- '(mouse-yank-at-point t)
- '(tool-bar-mode 0)
- '(visible-bell t))
-(custom-set-faces
-  ;; custom-set-faces was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
- )
-
+(setq color-theme-is-global t)
+(color-theme-xp)
 
 ;; chinese input method
 ;; refer to https://github.com/tumashu/chinese-pyim
@@ -60,6 +30,7 @@
 ;;(setq linum-format "%d| ") ;; set format
 ;;(setq-default fill-column 80)
 
+(set-default-font "-*-Menlo-normal-normal-normal-*-18-*-*-*-m-0-iso10646-1")
 (global-set-key "\C-z" 'undo)
 (global-set-key "\C-o" 'find-file)
 (global-set-key "\C-s" 'save-buffer)
@@ -123,17 +94,6 @@
 (setq display-time-24hr-format t)
 (setq display-time-day-and-data nil)
 (display-time)
-
-(set-foreground-color "white")
-(set-background-color "Gray22")
-(set-mouse-color "yellow")
-(set-cursor-color "red")
-(custom-set-faces
- ;; custom-set-faces was added by custom
- ;; if you edit it by hand,you could mess it up, so be careful
- ;; your init file should contain only one such instance
- ;; if there is more than one, they won't work right.
- '(font-lock-comment-face((t (:foreground "OrangeRed"))) t))
 
 
 ;; load exec-path-from-shell
