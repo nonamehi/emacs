@@ -60,7 +60,7 @@
 ;;(setq linum-format "%d| ") ;; set format
 ;;(setq-default fill-column 80)
 
-(set-default-font "微软雅黑-20") 
+;;(set-default-font "微软雅黑-20") 
 ;;(set-default-font "-unknown-DejaVu Sans Mono-normal-normal-normal-*-20-*-*-*-m-0-iso10646-1")
 (global-set-key "\C-z" 'undo)
 (global-set-key "\C-o" 'find-file)
