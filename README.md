@@ -16,20 +16,16 @@
 
 默认情况下，我会将我的配置文件clone到~/.emacs.d目录下，
 ```
-git clone https://github.com/lienhua34/myemacs-conf ~/.emacs.d
+https://github.com/nonamehi/emacs.git ~/.emacs.d
 ```
-然后在~/.emacs文件中加入加载根目录的.entry.el即可，
+然后link emacs，
 ```
-(load-file "~/.emacs.d/.entry.el")
+ln -sf ~/.emacs.d/emacs.top ~/.emacs
 ```
 
 ## clone到其它目录 ##
 
-如果将该库clone到其它目录了，则需要修改一下根目录下的.entry.el文件中的变量root-config-dir修改一下，
 ```
-(setq root-config-dir "/path/to/your/clone/dir")
-```
-在~/.emacs文件
-```
-(load-file "/path/to/your/clone/dir/.entry.el")
+ln -sf "/path/to/your/clone/dir" ~/.emacs.d
+ln -sf "/path/to/your/clone/dir"/emacs.top ~/.emacs
 ```
