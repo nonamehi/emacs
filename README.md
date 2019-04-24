@@ -16,7 +16,7 @@
 
 默认情况下，我会将我的配置文件clone到~/.emacs.d目录下，
 ```
-https://github.com/nonamehi/emacs.git ~/.emacs.d
+git clone https://github.com/nonamehi/emacs.git ~/.emacs.d
 ```
 然后link emacs，
 ```
