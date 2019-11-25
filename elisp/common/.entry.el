@@ -30,7 +30,7 @@
 ;;(setq linum-format "%d| ") ;; set format
 ;;(setq-default fill-column 80)
 
-(set-default-font "-*-Menlo-normal-normal-normal-*-18-*-*-*-m-0-iso10646-1")
+;;(set-default-font "-*-Menlo-normal-normal-normal-*-18-*-*-*-m-0-iso10646-1")
 (global-set-key "\C-z" 'undo)
 (global-set-key "\C-o" 'find-file)
 (global-set-key "\C-s" 'save-buffer)

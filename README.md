@@ -1,5 +1,5 @@
 # 关于 #
-这个是的emacs的配置文件信息。
+这个是的emacs的配置文件信息。适配emacs24及以上版本。
 
 ## 目录结构 ##
 根目录下的.entry.el是总的入口配置文件。
@@ -16,7 +16,7 @@
 
 默认情况下，我会将我的配置文件clone到~/.emacs.d目录下，
 ```
-https://github.com/nonamehi/emacs.git ~/.emacs.d
+git clone https://github.com/nonamehi/emacs.git ~/.emacs.d
 ```
 然后link emacs，
 ```
