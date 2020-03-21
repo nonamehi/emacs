@@ -27,6 +27,7 @@
  '(large-file-warning-threshold nil)
  '(make-backup-files nil)
  '(mouse-yank-at-point t)
+ '(package-selected-packages (quote (aggressive-indentfa)))
  '(show-paren-mode t)
  '(text-mode-hook (quote (turn-on-auto-fill text-mode-hook-identify)))
  '(visible-bell t))

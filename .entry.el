@@ -9,6 +9,8 @@
 
 (load-file (concat root-config-dir "/elisp/xml/.entry.el"))
 
+(load-file (concat root-config-dir "/elisp/markdown/.entry.el"))
+
 ;; load golang develop environment configure entry file
 ;;(load-file (concat root-config-dir "/elisp/golang/.entry.el"))
 
