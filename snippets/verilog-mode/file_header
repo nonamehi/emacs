@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: file header
+# key: fh
+# --
+/************************************************************************* 
+> File Name   : `(file-name-nondirectory buffer-file-name)`
+> Author      : liujiaqi
+> Created Time: `(current-time-string)`
+>            X     
+>           / \   
+>          /   \  
+>         /     \
+>        /-------\
+>        |       |
+>        |  +-+  |
+>        |  | |  |
+>        +--+-+--+
+************************************************************************/
+$0
