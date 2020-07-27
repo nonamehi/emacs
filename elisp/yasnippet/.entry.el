@@ -1,4 +1,6 @@
 (setq yasnippet-config-dir (concat root-config-dir "/elisp/yasnippet"))
+(setq snippet-dirs (concat yasnippet-config-dir "/snippets"))
 (add-to-list 'load-path yasnippet-config-dir)
+(setq yas-snippet-dirs '(snippet-dirs))
 (require 'yasnippet)
 (yas-global-mode 1)
