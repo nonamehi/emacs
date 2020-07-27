@@ -6,3 +6,4 @@ export PS1='[\u@\h\w]\$ '
 
 export SVN_EDITOR=emacs
 export EDITOR=emacs
+

@@ -6,7 +6,7 @@
 
 ;; load common configure entry file
 (load-file (concat root-config-dir "/elisp/common/.entry.el"))
-
+(load-file (concat root-config-dir "/elisp/yasnippet/.entry.el"))
 (load-file (concat root-config-dir "/elisp/xml/.entry.el"))
 
 (load-file (concat root-config-dir "/elisp/markdown/.entry.el"))
